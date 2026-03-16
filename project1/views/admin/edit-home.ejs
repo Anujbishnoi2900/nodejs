@@ -1,0 +1,19 @@
+<%- include('../partials/header') %>
+
+<h1>Edit Home</h1>
+
+<form action="/admin/edit-home" method="POST">
+
+<input type="hidden" name="id" value="<%= home.id %>">
+
+<input name="title" value="<%= home.title %>">
+
+<input name="location" value="<%= home.location %>">
+
+<input name="price" value="<%= home.price %>">
+
+<button>Update</button>
+
+</form>
+
+<%- include('../partials/footer') %>

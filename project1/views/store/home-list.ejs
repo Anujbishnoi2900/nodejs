@@ -1,0 +1,19 @@
+<%- include('../partials/header') %>
+
+<h1>All Homes</h1>
+
+<% homes.forEach(home=>{ %>
+
+<div>
+
+<h3><%= home.title %></h3>
+
+<p><%= home.location %></p>
+
+<a href="/home/<%= home.id %>">View Detail</a>
+
+</div>
+
+<% }) %>
+
+<%- include('../partials/footer') %>

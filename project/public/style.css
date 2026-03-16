@@ -1,0 +1,22 @@
+body{
+font-family:Arial;
+margin:40px;
+background:#f4f4f4;
+}
+
+header{
+background:#333;
+color:white;
+padding:20px;
+}
+
+nav a{
+margin-right:15px;
+color:white;
+text-decoration:none;
+}
+
+ul{
+background:white;
+padding:20px;
+}

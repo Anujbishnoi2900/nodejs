@@ -1,0 +1,19 @@
+<%- include('../partials/header') %>
+
+<h1>Admin Homes</h1>
+
+<% homes.forEach(home=>{ %>
+
+<div>
+
+<h3><%= home.title %></h3>
+
+<a href="/admin/edit-home/<%= home.id %>">Edit</a>
+
+<a href="/admin/delete-home/<%= home.id %>">Delete</a>
+
+</div>
+
+<% }) %>
+
+<%- include('../partials/footer') %>
