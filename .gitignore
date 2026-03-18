@@ -1,4 +1,12 @@
+# node modules (heavy files - upload nahi karte)
 node_modules/
+
+# environment variables (password hidden rahega)
 .env
-.DS_Store
+
+# logs
 npm-debug.log
+
+# OS files
+.DS_Store
+Thumbs.db
