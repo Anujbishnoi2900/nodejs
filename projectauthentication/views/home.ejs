@@ -1,0 +1,12 @@
+<%- include("partials/header") %>
+
+<h1>Products</h1>
+
+<% products.forEach(p => { %>
+  <div>
+    <h3><%= p.title %></h3>
+    <p>₹ <%= p.price %></p>
+  </div>
+<% }) %>
+
+<%- include("partials/footer") %>

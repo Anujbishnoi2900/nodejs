@@ -117,3 +117,14 @@
 #         return n
 #     return n*fact(n-1)
 # print(fact(5))
+
+
+
+
+st=[]
+
+def add(title, author , price ):
+    st.append({"title":title, "author":author, "price":price})
+def remove(title)  :
+    global st
+    st=[dic for dic in st: if dic[title] == title  ]  
